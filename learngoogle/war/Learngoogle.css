@@ -1,8 +1,5 @@
 /** Add css rules here for your application. */
 
-.intro {
-
-}
 
 .introtext {
 	font-size: 15pt;
@@ -14,10 +11,18 @@
 	color: red;
 }
 
-
-
-.intro gwt-Button {
+.intro .gwt-PushButton {
 	padding-left: 10px;
+	width: 195px;
+	height: 70px;
+	margin-right: 20px;
+}
+
+.binglogo {
+	margin-left: 25px;
+	margin-right: auto;
+	margin-top: 17px;
+	margin-bottom: auto;
 }
 
 .bottom {
@@ -32,7 +37,7 @@
 	padding: 10px;
 	clear: both;
 	min-width: 960px;
-	min-height: 1000px;
+	min-height: 500px;
 }
 
 .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {

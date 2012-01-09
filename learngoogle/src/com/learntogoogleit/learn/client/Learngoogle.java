@@ -49,24 +49,24 @@ public class Learngoogle implements EntryPoint {
 	    //up a dialog asking the user what search engine help should be displayed.
 	    if (search == null) {
 	    	final DialogBox choose = new DialogBox(true, true);
-	    	choose.setText("select your preferred search engine.");
+	    	choose.setText("select a search engine to learn about");
 	    	choose.setGlassEnabled(true);
 	    	choose.setAnimationEnabled(true);
 	    	
 	    	Label intro = new Label("Need help with Google? Is Bing making you blue?");
 	    	intro.setStyleName("introtext");
-	    	Label direction = new Label("");
-
-	    	String intro_text = "Need help with Google? Is Bing making you blue?";
+	    	//Label direction = new Label("select a search engine to learn about");
 	    	
-	    	Button google_button = new Button("Google", new ClickHandler() {
+	    	PushButton google_button = new PushButton(new Image("/googlelogo.png"), new ClickHandler() {
 				public void onClick(ClickEvent event) {
 					choose.hide();
 				}
 			});//close new Button
 	    	google_button.setTitle("Google");
 	    	
-	    	Button bing_button = new Button("Bing", new ClickHandler() {
+	    	Image binglogo = new Image("binglogo.png");
+	    	binglogo.setStylePrimaryName("binglogo");
+	    	PushButton bing_button = new PushButton(binglogo, new ClickHandler() {
 				public void onClick(ClickEvent event) {
 					choose.hide();
 					com.google.gwt.user.client.Window.Location.assign("http://www.learntogoogle.it/?search=bing");
