@@ -1,0 +1,120 @@
+/** Add css rules here for your application. */
+
+.intro {
+
+}
+
+.introtext {
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.disclaimer {
+	font-size: 10pt;
+	color: red;
+}
+
+
+
+.intro gwt-Button {
+	padding-left: 10px;
+}
+
+.bottom {
+	display: block;
+	clear: both;
+}
+
+.gwt-TabLayoutPanel {
+	height: 100%;
+	overflow: visible !important;
+	margin: 20px;
+	padding: 10px;
+	clear: both;
+	min-width: 960px;
+	min-height: 1000px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
+	width: 100% !important;
+	background-color: #F9F8F4 !important;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContent {
+	background-color: white;
+	overflow: visible !important;
+	border: 1px solid #DDDDDD !important;
+	clear:both;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTab {
+	border-width: 1px 1px 0px 1px !important;
+	border-style: solid;
+	border-color: #DDDDDD;
+	font-size: 15px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+body {
+	font-size: 13px;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: #F9F8F4 !important;
+}
+
+div {
+	overflow: visible !important;
+}
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+
+.learntable td {
+	border: 1px solid #B9B7B7 !important;
+	margin: 0px;
+	padding: 4px;
+	border-collapse: collapse !important;
+}
+
+/*
+.evenrow {
+	background-color: #EDEDED;
+}
+*/
+
+.banner {
+	font-size: 24pt;
+	color: gray;
+}
+
+.searchpanel {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+
+.banner img {
+	vertical-align: middle;
+}
+
+.tabletitle {
+	background-color: #EDEDED;
+	font-weight: bold;
+}
+
+.learntext {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
