@@ -120,7 +120,7 @@ public class LearnManager {
 		}
 		
 		String bottom_html = "This web site is NOT AFFILIATED with Microsoft Bing or Google. Written by Vinny A.";
-		Anchor github = new Anchor("Visit this project's GitHub page at https://github.com/teamaqua/learntogoogleit.", "https://github.com/teamaqua/learntogoogleit");
+		Anchor github = new Anchor("Visit this project's GitHub page at https://github.com/teamaqua/learntogoogleit.", "https://github.com/teamaqua/learntogoogleit-code");
 		String email = "Comments, questions, feedback? Email me at vinny@firmstats.com";
 		
 		FlowPanel bottom_panel = new FlowPanel();
